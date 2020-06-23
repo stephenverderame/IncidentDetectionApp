@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>Aggiungi nuovo numero</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumDesc" xml:space="preserve">
+    <value>Aggiungi un numero di emergenza personalizzato</value>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>Numero personalizzato</value>
+  </data>
+  <data name="CallSwitch" xml:space="preserve">
+    <value>Chiama i servizi emergenza quando non ci sono rispondi?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="CancelCallTime" xml:space="preserve">
+    <value>Tempo per annulla il chiama:</value>
+  </data>
+  <data name="CancelCountdown" xml:space="preserve">
+    <value>Annulla Conto alla Rovescia</value>
+  </data>
+  <data name="CancelTime" xml:space="preserve">
+    <value>Temper per annulla emergenza:</value>
+  </data>
+  <data name="ChooseNums" xml:space="preserve">
+    <value>Scegli i numeri di contatti</value>
+  </data>
+  <data name="ContactList" xml:space="preserve">
+    <value>I Contatti a Disposizione</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value> secondi fino a aiuta sara notificato!</value>
+  </data>
+  <data name="CountdownEmergency" xml:space="preserve">
+    <value> secondi fino ai servizi emergenza saranno chiamata!</value>
+  </data>
+  <data name="Defaults" xml:space="preserve">
+    <value>Ripristina a default</value>
+  </data>
+  <data name="DetectedMsg" xml:space="preserve">
+    <value>È stato rilevato un evento imprevisto</value>
+    <comment>Collision Detected</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica I Contatti Emergenzi</value>
+  </data>
+  <data name="EmergencyList" xml:space="preserve">
+    <value>I Contatti Emergenzi</value>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>Numero di emergenza</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ottiena Auita</value>
+  </data>
+  <data name="HelpDesc" xml:space="preserve">
+    <value>Questo azione spedira un messagio ai contatti emergenza per ottenere aiuta. Continua?</value>
+  </data>
+  <data name="LocationPermission" xml:space="preserve">
+    <value>Il permesso di posizione è necessario per spedire il tuo posizione durante un incidente</value>
+    <comment>permissions</comment>
+  </data>
+  <data name="Message1" xml:space="preserve">
+    <value>Questo è un messagio di automatico da il mio app della rivelazione di incidente. Un incidente ha rivelato a</value>
+  </data>
+  <data name="MessageCall1" xml:space="preserve">
+    <value>Se nessuno non rispondono in</value>
+  </data>
+  <data name="MessageCall2" xml:space="preserve">
+    <value>secondi, spediro i servizi emergenza</value>
+  </data>
+  <data name="ModifyAudioPermission" xml:space="preserve">
+    <value>Il permesso di modifica audio è necessario per suonare un messagio durante il chiamata ai servizi emergenza</value>
+  </data>
+  <data name="NotificationDesc" xml:space="preserve">
+    <value>Verificando per incidenti </value>
+  </data>
+  <data name="NotificationTitle" xml:space="preserve">
+    <value>Rivelazione di Incidente</value>
+    <comment>Notifications</comment>
+  </data>
+  <data name="Notified" xml:space="preserve">
+    <value>Auita ha notificato!</value>
+    <comment>Notified</comment>
+  </data>
+  <data name="NotifiedCall" xml:space="preserve">
+    <value>I servizi emergenza hanno notificato!</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Spedisce Va Bene</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>Va Bene</value>
+  </data>
+  <data name="OkMessage" xml:space="preserve">
+    <value>Questo un messagio del mio app di rivelazione di incidente. Sono bene e non ho bisogni di auta</value>
+  </data>
+  <data name="ReceiveSMSPermission" xml:space="preserve">
+    <value>Il permesso di ricevire SMS è necessario per conoscere se un contatto emergenza viene</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reimposta</value>
+  </data>
+  <data name="ResetTitle" xml:space="preserve">
+    <value>_Ripristina le impostazioni</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="SendOKDesc" xml:space="preserve">
+    <value>Questo azione spedira un messagio ai contatti emergenza per parlare che tu sei bene. Continua?</value>
+  </data>
+  <data name="SendOKTitle" xml:space="preserve">
+    <value>Spedisce Va Bene</value>
+    <comment>Dialogs</comment>
+  </data>
+  <data name="Sensitivity" xml:space="preserve">
+    <value>Sensibilita di Rilevamento:</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>(bicicletta)</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>(Auto)</value>
+  </data>
+  <data name="SensitivityFalls" xml:space="preserve">
+    <value>(caduti)</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>impostazioni</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="SMSPermission" xml:space="preserve">
+    <value>Il permesso di SMS è necessario per spedire il tuo posizione durante un'incidente</value>
+  </data>
+  <data name="SMSSentFail" xml:space="preserve">
+    <value>il messagio ha manca spedire</value>
+  </data>
+  <data name="SMSSentOk" xml:space="preserve">
+    <value>il messagio ha speduto</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Rivelare di incidenti:</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>L'App di Rivelare di Incidente</value>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>Immettere un numero valido.</value>
+  </data>
+  <data name="VibratePermission" xml:space="preserve">
+    <value>Il permesso di vibrato è necessario per notifica te prima a spedire un messagio di auita</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="MinSpeed" xml:space="preserve">
+    <value>Velocita minima per initiare rivalamento (m/s):</value>
+  </data>
+</root>

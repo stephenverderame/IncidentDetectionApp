@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>Tilføj nyt nummer</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>Brugerdefineret nummer</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>Nødopkaldsnummer</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Få hjælp</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Nulstil</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>Cykel</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>Bil</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Indstillinger</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>Du skal angive et gyldigt tal.</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>JA</value>
+  </data>
+</root>

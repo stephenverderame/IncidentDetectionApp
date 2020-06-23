@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>إضافة رقم جديد</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>رقم مخصص</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء الأمر</value>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>رقم الطوارئ</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>الحصول على تعليمات</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>إعادة تعيين</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>دراجة هوائية</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>سيارة</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>إعدادات</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>يجب إدخال رقم صالح.</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+</root>

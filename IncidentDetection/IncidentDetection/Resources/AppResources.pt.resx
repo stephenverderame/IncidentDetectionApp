@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>Adicionar Novo Número</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>Número Personalizado</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="DetectedMsg" xml:space="preserve">
+    <value>Incidente Detectado</value>
+    <comment>Collision Detected</comment>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>Número de emergência</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Obter Ajuda</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>Ir</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Redefinir</value>
+  </data>
+  <data name="ResetTitle" xml:space="preserve">
+    <value>_Redefinir Configurações</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>bicicleta</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>Carro</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configurações</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>Você deve inserir um número válido.</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+</root>

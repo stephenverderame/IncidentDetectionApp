@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>Add New Number</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumDesc" xml:space="preserve">
+    <value>Add a custom emergency contact</value>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>Custom Number</value>
+  </data>
+  <data name="CallPermission" xml:space="preserve">
+    <value>Calling permission is needed to call emergency services if nobody responds</value>
+  </data>
+  <data name="CallSwitch" xml:space="preserve">
+    <value>Call emergency services on no response?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelCallTime" xml:space="preserve">
+    <value>Time to cancel emergency call:</value>
+  </data>
+  <data name="CancelCountdown" xml:space="preserve">
+    <value>Cancel Countdown</value>
+  </data>
+  <data name="CancelTime" xml:space="preserve">
+    <value>Time to cancel emergency:</value>
+  </data>
+  <data name="ChooseNums" xml:space="preserve">
+    <value>Choose contact numbers</value>
+  </data>
+  <data name="ContactList" xml:space="preserve">
+    <value>Available Contacts</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value> seconds until help is notified!</value>
+  </data>
+  <data name="CountdownEmergency" xml:space="preserve">
+    <value> seconds until emergency services are called!</value>
+  </data>
+  <data name="Defaults" xml:space="preserve">
+    <value>Set to Defaults</value>
+  </data>
+  <data name="DetectedMsg" xml:space="preserve">
+    <value>Incident Detected!!</value>
+    <comment>Collision Detected</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit Emergency Contacts</value>
+  </data>
+  <data name="EmergencyList" xml:space="preserve">
+    <value>Emergency Contact List</value>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>Emergency Number:</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Get Help</value>
+  </data>
+  <data name="HelpDesc" xml:space="preserve">
+    <value>This will send a message to your emergency contacts asking for help. Continue?</value>
+  </data>
+  <data name="LocationPermission" xml:space="preserve">
+    <value>Location permission is needed to send your location in the event of an incident</value>
+    <comment>permissions</comment>
+  </data>
+  <data name="Message1" xml:space="preserve">
+    <value>This is an automated message from my incident detection app. An incident has been detected at</value>
+  </data>
+  <data name="MessageCall1" xml:space="preserve">
+    <value>If no contact responds within</value>
+  </data>
+  <data name="MessageCall2" xml:space="preserve">
+    <value>seconds then emergency services will be called</value>
+  </data>
+  <data name="ModifyAudioPermission" xml:space="preserve">
+    <value>Modify audio permission is needed to play a prerecorded message during the call to emergency services if nobody responds</value>
+  </data>
+  <data name="NotificationDesc" xml:space="preserve">
+    <value>Checking for collisions to keep you safe</value>
+  </data>
+  <data name="NotificationTitle" xml:space="preserve">
+    <value>Incident Detection</value>
+    <comment>Notifications</comment>
+  </data>
+  <data name="Notified" xml:space="preserve">
+    <value>Help has been notified!</value>
+    <comment>Notified</comment>
+  </data>
+  <data name="NotifiedCall" xml:space="preserve">
+    <value>Emergency services have been notified!</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Send I'm Okay</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OkMessage" xml:space="preserve">
+    <value>This is a message from my incident detection app. I'm alright and no further help is needed.</value>
+  </data>
+  <data name="ReceiveSMSPermission" xml:space="preserve">
+    <value>Receive sms permission is needed to know if an emergency contact responded</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetTitle" xml:space="preserve">
+    <value>Reset Settings?</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SendOKDesc" xml:space="preserve">
+    <value>This will send a message to your emergency contacts notifying them that you are alright. Continue?</value>
+  </data>
+  <data name="SendOKTitle" xml:space="preserve">
+    <value>Send OK?</value>
+    <comment>Dialogs</comment>
+  </data>
+  <data name="Sensitivity" xml:space="preserve">
+    <value>Detection Sensitivity:</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>(bike)</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>(car)</value>
+  </data>
+  <data name="SensitivityFalls" xml:space="preserve">
+    <value>(falls)</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="SMSPermission" xml:space="preserve">
+    <value>SMS permission is needed to send your location in the event of an incident</value>
+  </data>
+  <data name="SMSSentFail" xml:space="preserve">
+    <value>SMS message failed to send</value>
+  </data>
+  <data name="SMSSentOk" xml:space="preserve">
+    <value>SMS message sent</value>
+  </data>
+  <data name="Switch" xml:space="preserve">
+    <value>Incident detection enabled:</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Incident Detection App</value>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>(You must enter a valid number!)</value>
+  </data>
+  <data name="VibratePermission" xml:space="preserve">
+    <value>Vibrate permission is needed to alert you before sending SOS messages</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="MinSpeed" xml:space="preserve">
+    <value>Minimum Speed to trigger sensor readings (m/s):</value>
+  </data>
+</root>

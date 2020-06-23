@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IncidentDetection.IncidentDetectedPage"
+             xmlns:resources="clr-namespace:IncidentDetection.Resources"
+             Title="{x:Static resources:AppResources.DetectedMsg}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="20,0">
+            <Label Text="{x:Static resources:AppResources.DetectedMsg}" FontSize="Medium"/>
+            <Button Text="{x:Static resources:AppResources.CancelCountdown}" Clicked="Button_Clicked" CornerRadius="20"/>
+            <Button Text="{x:Static resources:AppResources.OK}" x:Name="ok" Clicked="Ok_Clicked" CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

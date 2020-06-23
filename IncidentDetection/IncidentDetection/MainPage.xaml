@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IncidentDetection.MainPage"
+             xmlns:resources="clr-namespace:IncidentDetection.Resources"
+             Title="{x:Static resources:AppResources.Title}">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="10, 0, 10, 0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="{x:Static resources:AppResources.Switch}"/>
+                <Switch IsToggled="True" x:Name="onOffSwitch"/>
+            </StackLayout>
+ <!--           <Button Text="Cancel Incident Detection" x:Name="cancel" Clicked="Cancel_Clicked"/> -->
+            <Button Text="{x:Static resources:AppResources.OK}" x:Name="ok" Clicked="Ok_Clicked" CornerRadius="20"/>
+            <Button Text="{x:Static resources:AppResources.Edit}" Clicked="Button_Clicked" CornerRadius="20"/>
+            <Button Text="{x:Static resources:AppResources.Help}" x:Name="help" Clicked="Help_Clicked" CornerRadius="20"/>
+            <Button Text="{x:Static resources:AppResources.Settings}" Clicked="Button_Clicked_1" CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

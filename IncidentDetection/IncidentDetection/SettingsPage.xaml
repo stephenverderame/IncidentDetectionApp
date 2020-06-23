@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IncidentDetection.SettingsPage"
+             xmlns:resources="clr-namespace:IncidentDetection.Resources"
+             Title="{x:Static resources:AppResources.Settings}">
+    <ContentPage.Content>
+        <StackLayout Margin="20" VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{x:Static resources:AppResources.Sensitivity}" FontSize="Medium" x:Name="SensitivityLabel"/>
+                <Label x:Name="sensitivityType" FontSize="Medium" Text="{x:Static resources:AppResources.SensitivityFalls}"/>
+            </StackLayout>
+            <Slider Maximum="79" Value="75" x:Name="slider" MaximumTrackColor="Accent" ValueChanged="Slider_ValueChanged"/>
+
+            <Label Text="{x:Static resources:AppResources.CancelTime}" FontSize="Medium" x:Name="CancelLabel"/>
+            <Slider Maximum="90" Minimum="1" Value="30" x:Name="countdownSlider" MaximumTrackColor="Accent" ValueChanged="CountdownSlider_ValueChanged"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{x:Static resources:AppResources.CallSwitch}" FontSize="Medium"/>
+                <Switch x:Name="callSwitch" IsToggled="False"/>
+            </StackLayout>
+            <ContentView IsVisible="{Binding Source={x:Reference callSwitch}, Path=IsToggled}">
+                <StackLayout>
+                    <Label Text="{x:Static resources:AppResources.CancelCallTime}" FontSize="Medium" x:Name="CancelCallLabel"/>
+                    <Slider x:Name="countdownCallSlider" Maximum="300" Minimum="5" Value="90" MaximumTrackColor="Accent" ValueChanged="CountdownCallSlider_ValueChanged"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="{x:Static resources:AppResources.EmergencyNum}"/>
+                        <Entry Text="911" Keyboard="Telephone" x:Name="emergencyNumber" MinimumWidthRequest="100"/>
+                    </StackLayout>
+                </StackLayout>
+            </ContentView>
+<!--            <Label Text="{x:Static resources:AppResources.MinSpeed}" FontSize="Medium"/>
+            <Entry Keyboard="Numeric" MinimumWidthRequest="200" Text="0" x:Name="minSpeedEntry"/>
+            <Button Text="{x:Static resources:AppResources.Defaults}" VerticalOptions="End" Clicked="Button_Clicked"/> -->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

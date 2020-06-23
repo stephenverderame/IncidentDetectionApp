@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it" original="INCIDENTDETECTION/RESOURCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="INCIDENTDETECTION/RESOURCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aggiungi</target>
+        </trans-unit>
+        <trans-unit id="AddNum" translate="yes" xml:space="preserve">
+          <source>Add New Number</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Aggiungi nuovo numero</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Edit Contacts Page</note>
+        </trans-unit>
+        <trans-unit id="AddNumDesc" translate="yes" xml:space="preserve">
+          <source>Add a custom emergency contact</source>
+          <target state="translated">Aggiungi un numero di emergenza personalizzato</target>
+        </trans-unit>
+        <trans-unit id="AddNumTitle" translate="yes" xml:space="preserve">
+          <source>Custom Number</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Numero personalizzato</target>
+        </trans-unit>
+        <trans-unit id="CallPermission" translate="yes" xml:space="preserve">
+          <source>Calling permission is needed to call emergency services if nobody responds</source>
+          <target state="new">Il permesso di chiamata è necessario per chiamare i servizi di emergenza se nessuno non rispondere</target>
+        </trans-unit>
+        <trans-unit id="CallSwitch" translate="yes" xml:space="preserve">
+          <source>Call emergency services on no response?</source>
+          <target state="translated">Chiama i servizi emergenza quando non ci sono rispondi?</target>
+        </trans-unit>
+        <trans-unit id="Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Annulla</target>
+        </trans-unit>
+        <trans-unit id="CancelCallTime" translate="yes" xml:space="preserve">
+          <source>Time to cancel emergency call:</source>
+          <target state="translated">Tempo per annulla il chiama:</target>
+        </trans-unit>
+        <trans-unit id="CancelCountdown" translate="yes" xml:space="preserve">
+          <source>Cancel Countdown</source>
+          <target state="translated">Annulla Conto alla Rovescia</target>
+        </trans-unit>
+        <trans-unit id="CancelTime" translate="yes" xml:space="preserve">
+          <source>Time to cancel emergency:</source>
+          <target state="translated">Temper per annulla emergenza:</target>
+        </trans-unit>
+        <trans-unit id="ChooseNums" translate="yes" xml:space="preserve">
+          <source>Choose contact numbers</source>
+          <target state="translated">Scegli i numeri di contatti</target>
+        </trans-unit>
+        <trans-unit id="ContactList" translate="yes" xml:space="preserve">
+          <source>Available Contacts</source>
+          <target state="translated">I Contatti a Disposizione</target>
+        </trans-unit>
+        <trans-unit id="Countdown" translate="yes" xml:space="preserve">
+          <source> seconds until help is notified!</source>
+          <target state="translated"> secondi fino a aiuta sara notificato!</target>
+        </trans-unit>
+        <trans-unit id="CountdownEmergency" translate="yes" xml:space="preserve">
+          <source> seconds until emergency services are called!</source>
+          <target state="translated"> secondi fino ai servizi emergenza saranno chiamata!</target>
+        </trans-unit>
+        <trans-unit id="Defaults" translate="yes" xml:space="preserve">
+          <source>Set to Defaults</source>
+          <target state="translated">Ripristina a default</target>
+        </trans-unit>
+        <trans-unit id="DetectedMsg" translate="yes" xml:space="preserve">
+          <source>Incident Detected!!</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">È stato rilevato un evento imprevisto</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Collision Detected</note>
+        </trans-unit>
+        <trans-unit id="Edit" translate="yes" xml:space="preserve">
+          <source>Edit Emergency Contacts</source>
+          <target state="translated">Modifica I Contatti Emergenzi</target>
+        </trans-unit>
+        <trans-unit id="EmergencyList" translate="yes" xml:space="preserve">
+          <source>Emergency Contact List</source>
+          <target state="translated">I Contatti Emergenzi</target>
+        </trans-unit>
+        <trans-unit id="EmergencyNum" translate="yes" xml:space="preserve">
+          <source>Emergency Number:</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Numero di emergenza</target>
+        </trans-unit>
+        <trans-unit id="Help" translate="yes" xml:space="preserve">
+          <source>Get Help</source>
+          <target state="translated">Ottiena Auita</target>
+        </trans-unit>
+        <trans-unit id="HelpDesc" translate="yes" xml:space="preserve">
+          <source>This will send a message to your emergency contacts asking for help. Continue?</source>
+          <target state="translated">Questo azione spedira un messagio ai contatti emergenza per ottenere aiuta. Continua?</target>
+        </trans-unit>
+        <trans-unit id="LocationPermission" translate="yes" xml:space="preserve">
+          <source>Location permission is needed to send your location in the event of an incident</source>
+          <target state="translated">Il permesso di posizione è necessario per spedire il tuo posizione durante un incidente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">permissions</note>
+        </trans-unit>
+        <trans-unit id="Message1" translate="yes" xml:space="preserve">
+          <source>This is an automated message from my incident detection app. An incident has been detected at</source>
+          <target state="translated">Questo è un messagio di automatico da il mio app della rivelazione di incidente. Un incidente ha rivelato a</target>
+        </trans-unit>
+        <trans-unit id="MessageCall1" translate="yes" xml:space="preserve">
+          <source>If no contact responds within</source>
+          <target state="translated">Se nessuno non rispondono in</target>
+        </trans-unit>
+        <trans-unit id="MessageCall2" translate="yes" xml:space="preserve">
+          <source>seconds then emergency services will be called</source>
+          <target state="translated">secondi, spediro i servizi emergenza</target>
+        </trans-unit>
+        <trans-unit id="ModifyAudioPermission" translate="yes" xml:space="preserve">
+          <source>Modify audio permission is needed to play a prerecorded message during the call to emergency services if nobody responds</source>
+          <target state="translated">Il permesso di modifica audio è necessario per suonare un messagio durante il chiamata ai servizi emergenza</target>
+        </trans-unit>
+        <trans-unit id="NotificationDesc" translate="yes" xml:space="preserve">
+          <source>Checking for collisions to keep you safe</source>
+          <target state="translated">Verificando per incidenti </target>
+        </trans-unit>
+        <trans-unit id="NotificationTitle" translate="yes" xml:space="preserve">
+          <source>Incident Detection</source>
+          <target state="translated">Rivelazione di Incidente</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Notifications</note>
+        </trans-unit>
+        <trans-unit id="Notified" translate="yes" xml:space="preserve">
+          <source>Help has been notified!</source>
+          <target state="translated">Auita ha notificato!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Notified</note>
+        </trans-unit>
+        <trans-unit id="NotifiedCall" translate="yes" xml:space="preserve">
+          <source>Emergency services have been notified!</source>
+          <target state="translated">I servizi emergenza hanno notificato!</target>
+        </trans-unit>
+        <trans-unit id="OK" translate="yes" xml:space="preserve">
+          <source>Send I'm Okay</source>
+          <target state="translated">Spedisce Va Bene</target>
+        </trans-unit>
+        <trans-unit id="OkBtn" translate="yes" xml:space="preserve">
+          <source>OK</source>
+          <target state="translated">Va Bene</target>
+        </trans-unit>
+        <trans-unit id="OkMessage" translate="yes" xml:space="preserve">
+          <source>This is a message from my incident detection app. I'm alright and no further help is needed.</source>
+          <target state="translated">Questo un messagio del mio app di rivelazione di incidente. Sono bene e non ho bisogni di auta</target>
+        </trans-unit>
+        <trans-unit id="ReceiveSMSPermission" translate="yes" xml:space="preserve">
+          <source>Receive sms permission is needed to know if an emergency contact responded</source>
+          <target state="translated">Il permesso di ricevire SMS è necessario per conoscere se un contatto emergenza viene</target>
+        </trans-unit>
+        <trans-unit id="Reset" translate="yes" xml:space="preserve">
+          <source>Reset</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Reimposta</target>
+        </trans-unit>
+        <trans-unit id="ResetTitle" translate="yes" xml:space="preserve">
+          <source>Reset Settings?</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">_Ripristina le impostazioni</target>
+        </trans-unit>
+        <trans-unit id="Search" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Cerca</target>
+        </trans-unit>
+        <trans-unit id="SendOKDesc" translate="yes" xml:space="preserve">
+          <source>This will send a message to your emergency contacts notifying them that you are alright. Continue?</source>
+          <target state="translated">Questo azione spedira un messagio ai contatti emergenza per parlare che tu sei bene. Continua?</target>
+        </trans-unit>
+        <trans-unit id="SendOKTitle" translate="yes" xml:space="preserve">
+          <source>Send OK?</source>
+          <target state="translated">Spedisce Va Bene</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dialogs</note>
+        </trans-unit>
+        <trans-unit id="Sensitivity" translate="yes" xml:space="preserve">
+          <source>Detection Sensitivity:</source>
+          <target state="translated">Sensibilita di Rilevamento:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Settings</note>
+        </trans-unit>
+        <trans-unit id="SensitivityBike" translate="yes" xml:space="preserve">
+          <source>(bike)</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">(bicicletta)</target>
+        </trans-unit>
+        <trans-unit id="SensitivityCar" translate="yes" xml:space="preserve">
+          <source>(car)</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">(Auto)</target>
+        </trans-unit>
+        <trans-unit id="SensitivityFalls" translate="yes" xml:space="preserve">
+          <source>(falls)</source>
+          <target state="translated">(caduti)</target>
+        </trans-unit>
+        <trans-unit id="Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">impostazioni</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Main Page</note>
+        </trans-unit>
+        <trans-unit id="SMSPermission" translate="yes" xml:space="preserve">
+          <source>SMS permission is needed to send your location in the event of an incident</source>
+          <target state="translated">Il permesso di SMS è necessario per spedire il tuo posizione durante un'incidente</target>
+        </trans-unit>
+        <trans-unit id="SMSSentFail" translate="yes" xml:space="preserve">
+          <source>SMS message failed to send</source>
+          <target state="translated">il messagio ha manca spedire</target>
+        </trans-unit>
+        <trans-unit id="SMSSentOk" translate="yes" xml:space="preserve">
+          <source>SMS message sent</source>
+          <target state="translated">il messagio ha speduto</target>
+        </trans-unit>
+        <trans-unit id="Switch" translate="yes" xml:space="preserve">
+          <source>Incident detection enabled:</source>
+          <target state="translated">Rivelare di incidenti:</target>
+        </trans-unit>
+        <trans-unit id="Title" translate="yes" xml:space="preserve">
+          <source>Incident Detection App</source>
+          <target state="translated">L'App di Rivelare di Incidente</target>
+        </trans-unit>
+        <trans-unit id="ValidNum" translate="yes" xml:space="preserve">
+          <source>(You must enter a valid number!)</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Immettere un numero valido.</target>
+        </trans-unit>
+        <trans-unit id="VibratePermission" translate="yes" xml:space="preserve">
+          <source>Vibrate permission is needed to alert you before sending SOS messages</source>
+          <target state="translated">Il permesso di vibrato è necessario per notifica te prima a spedire un messagio di auita</target>
+        </trans-unit>
+        <trans-unit id="YesBtn" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Sì</target>
+        </trans-unit>
+        <trans-unit id="MinSpeed" translate="yes" xml:space="preserve">
+          <source>Minimum Speed to trigger sensor readings (m/s):</source>
+          <target state="translated">Velocita minima per initiare rivalamento (m/s):</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

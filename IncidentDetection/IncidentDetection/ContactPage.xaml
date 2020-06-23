@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IncidentDetection"
+             x:Class="IncidentDetection.ContactPage"
+             xmlns:resources="clr-namespace:IncidentDetection.Resources"
+             Title="{x:Static resources:AppResources.Edit}">
+    <StackLayout Orientation="Vertical" VerticalOptions="Center" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All">
+        <!-- Place new controls here -->
+        <Label Text="{x:Static resources:AppResources.EmergencyList}"/>
+        <ListView x:Name="emergencyContacts" RowHeight="60" ItemTapped="EmergencyContacts_ItemSelected" HeightRequest="500">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                            <Label Text="{Binding name}" FontSize="Medium"/>
+                            <Label Text="{Binding displayNumber}" FontSize="Small"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="{x:Static resources:AppResources.AddNum}" x:Name="customContactBtn" Clicked="CustomContactBtn_Clicked"/>
+        <Label Text="{x:Static resources:AppResources.ContactList}"/>
+        <Entry Placeholder="{x:Static resources:AppResources.Search}" TextChanged="Search_TextChanged" x:Name="searchBar"/>
+        <ListView x:Name="contactList" RowHeight="60" ItemTapped="ContactList_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                            <Label Text="{Binding name}" FontSize="Medium"/>
+                            <Label Text="{Binding displayNumber}" FontSize="Small"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

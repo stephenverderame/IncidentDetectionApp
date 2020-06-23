@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>添加新号码</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>自定义号码</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="DetectedMsg" xml:space="preserve">
+    <value>检测到的事件</value>
+    <comment>Collision Detected</comment>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>紧急号码</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>获取帮助</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="ResetTitle" xml:space="preserve">
+    <value>复位设置</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>自行车</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>汽车</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>必须输入有效的数字。</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>是</value>
+  </data>
+</root>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="AddNum" xml:space="preserve">
+    <value>Tambahkan Nomor Baru</value>
+    <comment>Edit Contacts Page</comment>
+  </data>
+  <data name="AddNumTitle" xml:space="preserve">
+    <value>Nomor Kustom</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="EmergencyNum" xml:space="preserve">
+    <value>Nomor Darurat</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Dapatkan Bantuan</value>
+  </data>
+  <data name="OkBtn" xml:space="preserve">
+    <value>Oke</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Atur ulang</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="SensitivityBike" xml:space="preserve">
+    <value>sepeda</value>
+  </data>
+  <data name="SensitivityCar" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Pengaturan</value>
+    <comment>Main Page</comment>
+  </data>
+  <data name="ValidNum" xml:space="preserve">
+    <value>Anda harus memasukkan angka yang valid.</value>
+  </data>
+  <data name="YesBtn" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+</root>

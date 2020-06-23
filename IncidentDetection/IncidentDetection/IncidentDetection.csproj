@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <ItemGroup>
+    <None Remove="MultilingualResources\IncidentDetection.ar.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.da.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.de.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.es.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.fr.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.hi.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.id.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.it.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.ja.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.nl.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.pt.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.ru.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.sv.xlf" />
+    <None Remove="MultilingualResources\IncidentDetection.zh-Hans.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Rg.Plugins.Popup" Version="1.2.0.223" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.4.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\IncidentDetection.ar.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.da.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.de.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.es.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.fr.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.hi.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.id.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.it.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\IncidentDetection.ja.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.nl.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.pt.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.ru.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.sv.xlf" />
+    <XliffResource Include="MultilingualResources\IncidentDetection.zh-Hans.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ContactPage.xaml.cs">
+      <DependentUpon>ContactPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AppResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="IncidentDetectedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NumSelectPopup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
